@@ -1,3 +1,4 @@
+#Šeit tiek parādīta informācija par izveidoto Relācijas DB
 class CreateDarbiniekis < ActiveRecord::Migration[6.1]
   def change
     create_table :darbiniekis do |t|

@@ -1,3 +1,4 @@
+#Šeit tiek veidots ceļs, kas atļauj pāriet uz lapu lapā.
 Rails.application.routes.draw do
   resources :darbiniekis
   #get 'home/index'
