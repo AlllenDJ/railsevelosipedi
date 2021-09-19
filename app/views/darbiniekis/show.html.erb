@@ -1,0 +1,17 @@
+<div class="jumbotron">
+  <h1 class="display-4"><%= @darbinieki.vards %> <%= @darbinieki.uzvards %> </h1>
+  <p class="lead"><%= @darbinieki.epasts %> | <%= @darbinieki.telefons %>  </p>
+  <hr class="my-4">
+  <p>
+  <strong>Uzsākšanas laiks:</strong>
+  <%= @darbinieki.starta_laiks %>
+  </p>
+
+  <p>
+  <strong>Nodošanas laiks:</strong>
+  <%= @darbinieki.beigu_laiks %>
+  </p>
+</div>
+
+<%= link_to 'Rediģēt', edit_darbinieki_path(@darbinieki), class:"btn btn-primary" %> 
+<%= link_to 'Atpakaļ', darbiniekis_path, class:"btn btn-secondary" %>

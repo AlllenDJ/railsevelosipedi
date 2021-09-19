@@ -1,0 +1,2 @@
+class Darbinieki < ApplicationRecord
+end
